@@ -4,8 +4,6 @@
 
 using namespace std;
 
-typedef tuple<int, int, int> triple;
-
 int main(){
     int n, x, y;
     scanf("%d", &n);
