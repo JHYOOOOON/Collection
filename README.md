@@ -1,3 +1,3 @@
 # Collection
 
-- This repository is collection that i solved problem from sites called Jungol, Baekjoon, etc.
+This repository is collection about solved problems from sites called Jungol, Baekjoon, etc.
