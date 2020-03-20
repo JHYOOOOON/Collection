@@ -1,18 +1,16 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-int main(void)
+int main()
 {
-    int x, cnt = 0;
-    cin >> x;
-    while (x > 0)
-    {
-        cnt++;
-        x -= cnt;
-    }
-    if (!cnt % 2)
-        cout << cnt + x << '/' << 1 - x;
-    else
-        cout << 1 - x << '/' << cnt + x;
+	int x;
+	cin >> x;
+	int i;
+	for (i = 1; x > 0; i++)
+		x = x - i;
+	if (i%2 == 1)
+		cout << i + x-1 << "/" << 1 - x << endl;
+	else
+		cout << 1-x << "/" << i+x-1 << endl;
     return 0;
 }
